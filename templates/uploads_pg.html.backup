@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Upload Page</title>
+	</head>
+		<body>
+			<form action = "http://192.168.50.76:5000/uploads" method = "POST" enctype = "multipart/form-data">
+			<input type = "file" name = "file" />
+			<input type = "submit" value = "Submit" />
+			</form>
+
+			<p> Below are the audio clips currently in rotation </p>
+			<p></p>
+			
+			{% for item in data %}
+				<li><a href="#"> {{ item }}</a></li>
+			{% endfor %}
+
+		</body>
+</html>
