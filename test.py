@@ -51,7 +51,7 @@ def motionMonitor():
                 .create(
                 body=message,
                 from_='+14792028274',
-                to='+12102029621'
+                to='+cell'
             )
             print(txt_message.sid)
 
@@ -59,7 +59,7 @@ def motionMonitor():
                 .create(
                 body=message,
                 from_='+14792028274',
-                to='+12106877697'
+                to='+cell'
             )
             print(txt_message.sid)
 
