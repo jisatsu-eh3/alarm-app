@@ -45,7 +45,7 @@ def getMotion(clip):
                 #    .create(
                 #    body=message,
                 #    from_='+14792028274',
-                #    to='+12102029621'
+                #    to='+'
                 #)
                 #print(txt_message.sid)
 
@@ -53,7 +53,7 @@ def getMotion(clip):
                 #    .create(
                 #    body=message,
                 #    from_='+14792028274',
-                #    to='+12106877697'
+                #    to='+'
                 #)
                 #print(txt_message.sid)
 
